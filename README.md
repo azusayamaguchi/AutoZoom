@@ -1,2 +1,2 @@
 # AutoZomm
-Uses Python to schedule Zoom meetings via crontab, and automates the process with selenium and pyautogui to automatically launch Zoom at a specified time, input the Meeting ID, and join with the microphone muted.
+This Python project is designed specifically for MacOS and uses crontab to schedule Zoom meetings. It automates the process with selenium and pyautogui, which handle launching Zoom at the scheduled time, entering the Meeting ID, and joining the meeting with the microphone muted. Since the project involves controlling the system's GUI, you need to grant accessibility permissions to both Python and any automation tools (pyautogui and selenium) in MacOS System Preferences for the script to function properly.
